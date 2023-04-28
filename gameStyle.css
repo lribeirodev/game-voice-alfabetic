@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.game-wrapper {
+    display: flex;
+    height: 550px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+#letter {
+    font-size: 10em;
+}
+
+#letter-wrapper {
+    width: 50%;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+#score-wrapper {
+    background-color: red;
+}
